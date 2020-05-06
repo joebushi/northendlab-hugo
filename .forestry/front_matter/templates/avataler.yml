@@ -1,4 +1,14 @@
 ---
 label: Avataler
 hide_body: false
-fields: []
+fields:
+- name: avtalekjema
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Avtalekjema
+  description: HTML-kilde fra Wufoo.com
