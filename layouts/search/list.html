@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <h2>Search result for
+        <h2>Søkresulater for
           <span class="text-primary">
             <script>
               var str = (window.location.search).substr(3);
@@ -19,8 +19,8 @@
             <div class="py-4 border-bottom" id="summary-${key}">
               <h4><a href="${link}">${title}</a></h4>
               <p>${snippet}</p>
-              ${ isset tags }<p>Tags: ${tags}</p>${ end }
-              ${ isset categories }<p>Categories: ${categories}</p>${ end }
+              ${ isset tags }<p>Tagger: ${tags}</p>${ end }
+              ${ isset categories }<p>Kategorier: ${categories}</p>${ end }
             </div>
         </script>
         </div>

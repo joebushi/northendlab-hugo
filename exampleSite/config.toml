@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://examplesite.com/"
-languageCode = "en-us"
+baseURL = "https://netlify.app/"
+languageCode = "no-nb"
 # site title 
-title = "Northendlab | Blog Template"
+title = "Psykoterapautene.no"
 # theme
 theme = "northendlab-hugo"
 # post pagination
@@ -40,36 +40,36 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "kontakt"
+name = "Kontakt"
 weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "tools"
+URL = "om"
+name = "Om oss"
 weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
+URL = "kontakt"
+name = "Kontakt"
 weight = 1
 
 [[menu.footer]]
-URL = "tools"
-name = "tools"
+URL = "om"
+name = "Om oss"
 weight = 2
 
 
 ######################### Default Parameters ###########################
 [params]
 # home
-home = "Home"
+home = "Hjem"
 # logo
 logo = "images/logo.svg"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "Eikemo Bushi Da"
+description = "Psykoterapautene for alle som trenger"
 # google tag manager
 google_tag_manager = "" # your id
 # google analitycs ID
@@ -77,7 +77,7 @@ google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2020 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "&copy; 2020 Psykoterapautene"
 
 # preloader
 [params.preloader]
@@ -92,7 +92,7 @@ enable = true
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
+title = "Psykoterapautene for alle som trenger."
 image = "images/banner/illustration.svg"
 
 
@@ -100,12 +100,12 @@ image = "images/banner/illustration.svg"
 [params.cta]
 enable = true
 image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+title = "Bestille en time hos oss"
+description = "Tekst om avtalene her."
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+label = "Bestill time"
+link = "https://patientsky.no/"
 
 
 ############################## Social Site ##########################
@@ -114,9 +114,6 @@ icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
 link = "#"
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-github" # themify icon pack https://themify.me/themify-icons
 link = "#"
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons

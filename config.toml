@@ -1,8 +1,8 @@
 ############################ Default configuration #########################
-baseURL = "https://examplesite.com/"
-languageCode = "en-us"
+baseURL = "https://psykoterapautene.no/"
+languageCode = "no-nb"
 # site title 
-title = "Northendlab | Blog Template"
+title = "Psykoterapautene"
 # theme
 theme = "northendlab-hugo"
 # post pagination
@@ -40,36 +40,36 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "kontakt"
+name = "Kontakt"
 weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "tools"
+URL = "bestille"
+name = "Bestille"
 weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
+URL = "kontakt"
+name = "Kontakt"
 weight = 1
 
 [[menu.footer]]
-URL = "tools"
-name = "tools"
+URL = "bestille"
+name = "Bestille"
 weight = 2
 
 
 ######################### Default Parameters ###########################
 [params]
 # home
-home = "Home"
+home = "Hjem"
 # logo
 logo = "images/logo.svg"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "Eikemo Bushi DA"
+description = "Psykoterapautene for alle"
 # google tag manager
 google_tag_manager = "" # your id
 # google analitycs ID
